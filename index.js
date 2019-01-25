@@ -6,3 +6,7 @@ $("#afterId").click(function () {
 $("#beforeId").click(function () {
     $("p").before("This text was created to be placed before the paragrap")
 })
+//.insertAfter
+$("#insertbeforeId").click(function () {
+    $("<li >Item 4</li>").insertAfter("li:last");
+});
