@@ -9,6 +9,6 @@ p {
   p:hover {
     background: yellow;
   }
-  #afterId{
+  .button{
     border:3px solid red;
   }
