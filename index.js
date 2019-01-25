@@ -9,10 +9,10 @@ $("#beforeId").click(function () {
 //.insertAfter
 //Inserting a new list element at the end of list.
 $("#insertbeforeId").click(function () {
-    $("<li>Item 4</li>").insertAfter("li:last");
+    $("<li>New Item</li>").insertAfter("li:last");
 });
 
 //Moving existing first element of the end of the list.
-$("#insertbeforeId").click(function () {
+$("#insertafterId").click(function () {
     $("li:first").insertAfter("li:last");
 });
